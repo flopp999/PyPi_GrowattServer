@@ -25,7 +25,7 @@ class Timespan(IntEnum):
 
 class GrowattApi:
     server_url = 'https://openapi.growatt.com/'
-    agent_identifier = "Dalvik/2.1.0 (Linux; U; Android 12; https://github.com/indykoning/PyPi_GrowattServer)"
+    agent_identifier = "Chrome"
 
     def __init__(self, add_random_user_id=False, agent_identifier=None):
         if (agent_identifier != None):
